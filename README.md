@@ -6,7 +6,7 @@ This is a Java project I’m working on as a student. It helps me learn and prac
 ## How to Run
 1. Clone the repository:
 
-   git clone git@github.com:your-username/your-repo.git
+   git clone git@github.com:immaitripanchal/java.git
 
 2. Compile the Java file :
 
