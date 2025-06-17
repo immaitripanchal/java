@@ -29,6 +29,12 @@ public class GuessNumber {
         // Get user's choice for the game mode
         System.out.print("Enter your choice (1 or 2): ");
         choice = s.nextInt();
+
+         // Validate the choice
+        if(choice != 1 && choice != 2) {
+            System.out.println("Invalid choice. Please restart the game and choose either 1 or 2.");
+            return; // Exit if the choice is invalid
+        }
    
         // Validate choice
         while(true)
