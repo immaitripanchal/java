@@ -36,10 +36,10 @@ public class GuessNumber {
             return; // Exit if the choice is invalid
         }
    
-        // Validate choice
+       
         while(true)
         {
-            // Check if the choice is valid
+           
             System.out.print("Enter any number (1 to 100) :");
             userInput = s.nextInt();
 
